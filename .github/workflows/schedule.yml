@@ -1,0 +1,9 @@
+name: schedule
+
+on:
+  schedule:
+    - cron: '20 23 * * *'
+
+jobs:
+  print-payload:
+    uses: ./.github/workflows/print-payload.yml

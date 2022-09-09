@@ -1,0 +1,8 @@
+name: push
+
+on:
+  push:
+
+jobs:
+  print-payload:
+    uses: ./.github/workflows/print-payload.yml
