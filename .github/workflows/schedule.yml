@@ -2,7 +2,7 @@ name: schedule
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '17 11 * * *'
 
 jobs:
   print-payload:
